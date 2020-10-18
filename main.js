@@ -1,9 +1,4 @@
-$.getJSON('https://api.coingecko.com/api/v3/exchange_rates', function(data) {
-  console.log(data.rates);
+$.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
+  console.log(data.rates.btc.name);
 
-var name = {name:"United Arab Emirates Dirham", name:"Argentine Peso", name:"Australian Dolla"};
-  for (var ){
-    console.log(`${rates[name]}`);
-  
-});
-
+$("#main").append(<div class="row"><div class="three columns"><p> '+ data.rates.btc.name + ' </p></div>)

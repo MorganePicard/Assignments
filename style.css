@@ -3,4 +3,11 @@
   margin-top:2.5em
 }
 
-h1 {}
+h1 {font-family: 'Raleway', sans-serif;
+}
+
+p {font-family: 'Raleway', sans-serif;
+}
+
+#main {font-family: 'Raleway', sans-serif;}
+

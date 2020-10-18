@@ -312,7 +312,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
   $("#main").append(
     '<div class="row"><div class="three columns"><p> ' +
       data.rates.huf.name +
-      '</p></div> <div class="four columns"><p> ' +
+      '</p></div> <div class="three columns"><p> ' +
       data.rates.huf.value +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.huf.unit +

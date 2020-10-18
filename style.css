@@ -1,13 +1,15 @@
-.container{
-  margin-bottom:2.5em;
-  margin-top:2.5em
+.container {
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
 }
 
-h1 {font-family: 'Raleway', sans-serif;
+h1 {
+font-family: 'Noto Sans JP', sans-serif;
+
+p {
+  font-family: "Raleway", sans-serif;
 }
 
-p {font-family: 'Raleway', sans-serif;
+#main {
+  font-family: "Raleway", sans-serif;
 }
-
-#main {font-family: 'Raleway', sans-serif;}
-

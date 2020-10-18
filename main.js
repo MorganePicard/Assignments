@@ -1,7 +1,7 @@
 $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
   console.log(data.rates.btc.name);
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.btc.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.btc.value +
@@ -12,7 +12,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.eth.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.eth.value +
@@ -23,7 +23,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.ltc.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.ltc.value +
@@ -34,9 +34,9 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.bch.name +
-      '</p></div> <div class="four columns"><p> ' +
+      '</p></div> <div class="three columns"><p> ' +
       data.rates.bch.value +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.bch.unit +
@@ -45,7 +45,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.bnb.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.bnb.value +
@@ -56,7 +56,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.eos.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.eos.value +
@@ -67,7 +67,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.xrp.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.xrp.value +
@@ -78,7 +78,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.xlm.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.xlm.value +
@@ -89,7 +89,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.link.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.link.value +
@@ -100,7 +100,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.dot.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.dot.value +
@@ -111,7 +111,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.yfi.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.yfi.value +
@@ -122,7 +122,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.usd.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.usd.value +
@@ -133,7 +133,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.aed.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.aed.value +
@@ -144,7 +144,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.ars.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.ars.value +
@@ -155,7 +155,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.aud.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.aud.value +
@@ -166,7 +166,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.bdt.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.bdt.value +
@@ -177,7 +177,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.bhd.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.bhd.value +
@@ -188,7 +188,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.bmd.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.bmd.value +
@@ -199,7 +199,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.brl.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.brl.value +
@@ -210,7 +210,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.cad.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.cad.value +
@@ -222,7 +222,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
   );
 
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.chf.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.chf.value +
@@ -233,7 +233,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.clp.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.clp.value +
@@ -244,7 +244,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.cny.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.cny.value +
@@ -255,7 +255,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.czk.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.czk.value +
@@ -266,7 +266,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.dkk.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.dkk.value +
@@ -277,7 +277,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.eur.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.eur.value +
@@ -288,7 +288,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.gbp.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.gbp.value +
@@ -299,7 +299,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.hkd.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.hkd.value +
@@ -310,7 +310,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.huf.name +
       '</p></div> <div class="four columns"><p> ' +
       data.rates.huf.value +
@@ -321,7 +321,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.idr.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.idr.value +
@@ -332,7 +332,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.ils.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.ils.value +
@@ -343,7 +343,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.inr.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.inr.value +
@@ -354,7 +354,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.jpy.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.jpy.value +
@@ -365,7 +365,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.krw.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.krw.value +
@@ -376,7 +376,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.kwd.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.kwd.value +
@@ -387,7 +387,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.lkr.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.lkr.value +
@@ -398,7 +398,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.mmk.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.mmk.value +
@@ -409,7 +409,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.mxn.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.mxn.value +
@@ -420,7 +420,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.myr.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.myr.value +
@@ -431,7 +431,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.ngn.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.ngn.value +
@@ -442,7 +442,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.nok.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.nok.value +
@@ -453,7 +453,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.nzd.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.nzd.value +
@@ -464,7 +464,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.php.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.php.value +
@@ -475,7 +475,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.pkr.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.pkr.value +
@@ -486,7 +486,7 @@ $.getJSON("https://api.coingecko.com/api/v3/exchange_rates", function(data) {
       "</p></div> </div>"
   );
   $("#main").append(
-    '<div class="row"><div class="four columns"><p> ' +
+    '<div class="row"><div class="three columns"><p> ' +
       data.rates.pln.name +
       '</p></div> <div class="three columns"><p> ' +
       data.rates.pln.value +

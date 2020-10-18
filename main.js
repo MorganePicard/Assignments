@@ -1,3 +1,6 @@
-$.getJSON('https://link to your JSON data set', function(json) {
-  console.log(json);
+$.getJSON('https://api.coingecko.com/api/v3/exchange_rates', function(rates) {
+  console.log(rates);
 });
+var rates 
+
+$("body").append("<p>" + rates.btc +"</p>")

@@ -5,16 +5,16 @@
 
 h1 {
 font-family: 'Noto Sans JP', sans-serif;
-  color:white;}
+  color:black;}
 
 body {
 font-family: 'Raleway', sans-serif;
-color:white;
+color:black;
 }
 
 #main {
   font-family: "Raleway", sans-serif;
-  color:white;
+  color:black;
   
 }
      
@@ -32,10 +32,16 @@ color:white;
 }
 
 .rates:hover {
-    background-color: white;
+    background-color: black;
 }
 
 .rates:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
